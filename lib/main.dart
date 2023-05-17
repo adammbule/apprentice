@@ -17,8 +17,17 @@ Piratecoin({super.key});
           title: Text('Piratecoin'),
         ),
         backgroundColor: Colors.black54,
-        body: Container(),
-      ),
-    );
-  }
+        body: SafeArea(
+          child:Container(
+            height: 50.0,
+            width: 50.0,
+            color: Colors.white,
+            child: Text('Welcome!! Adam'),
+            margin: EdgeInsets.only(left: 30.0),
+            padding: EdgeInsets.all(20.0),
+            )
+          ),
+        ),
+      );
+    }
 }

@@ -12,7 +12,11 @@ Piratecoin({super.key});
   Widget build(BuildContext context) {
     return MaterialApp(
       home:Scaffold(
-        backgroundColor: Colors.teal,
+        appBar: AppBar(
+          backgroundColor: Colors.redAccent,
+          title: Text('Piratecoin'),
+        ),
+        backgroundColor: Colors.black54,
         body: Container(),
       ),
     );

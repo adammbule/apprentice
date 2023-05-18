@@ -29,6 +29,9 @@ Piratecoin({super.key});
             margin:EdgeInsets.only(left: 30.0),
             padding:EdgeInsets.all(20.0),
               ),
+              SizedBox(
+                height: 30.0,
+              ),
               Container(
                 width:double.infinity,
                 height:75,

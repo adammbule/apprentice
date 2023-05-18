@@ -18,16 +18,19 @@ Piratecoin({super.key});
         ),
         backgroundColor: Colors.black54,
         body: SafeArea(
-          child:Container(
-            height: 50.0,
-            width: 50.0,
-            color: Colors.white,
-            child: Text('Welcome!! Adam'),
-            margin: EdgeInsets.only(left: 30.0),
-            padding: EdgeInsets.all(20.0),
+          child: Column(
+            children: <Widget>[
+              Container( //container
+            height:200.0,
+            width:200.0,
+            color:Colors.white,
+            child:Text('Welcome!! Adam'),
+            margin:EdgeInsets.only(left: 30.0),
+            padding:EdgeInsets.all(20.0),
+            ],)
             )
           ),
-        ),
-      );
-    }
+        );
+      }
 }
+

@@ -20,17 +20,27 @@ Piratecoin({super.key});
         body: SafeArea(
           child: Column(
             children: <Widget>[
-              Container( //container
-            height:200.0,
+              Container(//container
+            height:80.0,
             width:200.0,
             color:Colors.white,
-            child:Text('Welcome!! Adam'),
+            child:Text('Enter Username'),
             margin:EdgeInsets.only(left: 30.0),
             padding:EdgeInsets.all(20.0),
-            ],)
-            )
-          ),
-        );
+              ),
+              Container(
+                width: 100,
+                height: 30,
+                color: Colors.blueGrey,
+                child: Text('Enter Password'),
+                margin:EdgeInsets.only(left: 30.0),
+                padding:EdgeInsets.all(20.0),
+                             
+              ),
+            ]),
+            ),
+        )
+    );
       }
 }
 

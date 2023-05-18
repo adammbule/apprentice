@@ -19,24 +19,26 @@ Piratecoin({super.key});
         backgroundColor: Colors.black54,
         body: SafeArea(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
             children: <Widget>[
               Container(//container
             height:75.0,
-            width:200.0,
+            width:double.infinity,
             color:Colors.white,
             child:Text('Enter Username'),
             margin:EdgeInsets.only(left: 30.0),
             padding:EdgeInsets.all(20.0),
               ),
               Container(
-                width: 200,
+                width:double.infinity,
                 height:75,
                 color: Colors.white,
                 child:Text('Enter Password'),
                 margin:EdgeInsets.only(left: 30.0),
                 padding:EdgeInsets.all(20.0),
                              
-              ),
+              ), //container 2
+              
             ]),
             ),
         )

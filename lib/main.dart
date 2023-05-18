@@ -17,7 +17,7 @@ Piratecoin({super.key});
           title: Text(
             'Piratecoin',
             style: TextStyle(
-                    fontFamily: 'Roboto',
+                    fontFamily: 'Roboto', //obtain fonts from fonts.google.com
                     fontSize: 30.0,
                     color: Colors.black45,
                     fontWeight: FontWeight.bold,

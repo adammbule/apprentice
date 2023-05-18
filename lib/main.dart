@@ -16,7 +16,7 @@ Piratecoin({super.key});
           backgroundColor: Colors.redAccent,
           title: Text('Piratecoin'),
         ),
-        backgroundColor: Colors.black54,
+        backgroundColor: Colors.lightBlue,
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
@@ -41,7 +41,10 @@ Piratecoin({super.key});
                 padding:EdgeInsets.all(20.0),
                              
               ), //container 2
-              
+              CircleAvatar(
+                Radius: 20.0,
+                backgroundImage:AssetImage('images/')
+              ),                
             ]),
             ),
         )

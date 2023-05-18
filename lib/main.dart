@@ -41,10 +41,10 @@ Piratecoin({super.key});
                 padding:EdgeInsets.all(20.0),
                              
               ), //container 2
-              CircleAvatar(
-                Radius: 20.0,
-                backgroundImage:AssetImage('images/')
-              ),                
+              /*CircleAvatar( //to be deployed later
+                Radius: 50.0,
+                backgroundImage:AssetImage('images/'), //Don't forget to edit pubspec.yaml
+              ), */               
             ]),
             ),
         )

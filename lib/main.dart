@@ -21,7 +21,7 @@ Piratecoin({super.key});
           child: Column(
             children: <Widget>[
               Container(//container
-            height:80.0,
+            height:75.0,
             width:200.0,
             color:Colors.white,
             child:Text('Enter Username'),
@@ -29,10 +29,10 @@ Piratecoin({super.key});
             padding:EdgeInsets.all(20.0),
               ),
               Container(
-                width: 100,
-                height: 30,
-                color: Colors.blueGrey,
-                child: Text('Enter Password'),
+                width: 200,
+                height:75,
+                color: Colors.white,
+                child:Text('Enter Password'),
                 margin:EdgeInsets.only(left: 30.0),
                 padding:EdgeInsets.all(20.0),
                              

@@ -14,7 +14,15 @@ Piratecoin({super.key});
       home:Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.redAccent,
-          title: Text('Piratecoin'),
+          title: Text(
+            'Piratecoin',
+            style: TextStyle(
+                    fontFamily: 'Roboto',
+                    fontSize: 30.0,
+                    color: Colors.black45,
+                    fontWeight: FontWeight.bold,
+                  ),
+                  ),
         ),
         backgroundColor: Colors.lightBlue,
         body: SafeArea(

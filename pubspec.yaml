@@ -23,3 +23,11 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  fonts:
+    - family: RobotoCondensed
+      fonts:
+        - asset: fonts/RobotoCondensed-Bold.ttf     
+  
+  assets: 
+    - images/

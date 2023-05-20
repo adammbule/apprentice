@@ -36,8 +36,17 @@ Piratecoin({super.key});
             color:Colors.white,
             child:Text('Enter Username'),
             margin:EdgeInsets.only(left: 30.0),
-            padding:EdgeInsets.all(20.0),
-              ),
+            padding:EdgeInsets.all(20.0), 
+              //fix the code Container(// add icons
+                child: Row(
+                  children: <Widget>[
+                    Icon(Icons.login_rounded,
+                    size: 50.0,
+                    color: Colors.),
+                  ],
+                ),
+
+              ),                           ),
               SizedBox(
                 height: 30.0,
               ),
@@ -54,15 +63,16 @@ Piratecoin({super.key});
                 height: 30.0,
               ),
               Text('Forgot Your Password?'),
-              Container(// add icons
+              /*Container(// add icons
                 child: Row(
                   children: <Widget>[
                     Icon(Icons.login_rounded,
-                    size: 50.0,),
+                    size: 50.0,
+                    color: Colors.),
                   ],
                 ),
 
-              ),
+              ),*/ //To be implemented later
               /*CircleAvatar( //to be deployed later
                 Radius: 50.0,
                 backgroundImage:AssetImage('images/'), //Don't forget to edit pubspec.yaml

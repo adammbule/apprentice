@@ -54,6 +54,15 @@ Piratecoin({super.key});
                 height: 30.0,
               ),
               Text('Forgot Your Password?'),
+              Container(// add icons
+                child: Row(
+                  children: <Widget>[
+                    Icon(Icons.login_rounded,
+                    size: 50.0,),
+                  ],
+                ),
+
+              ),
               /*CircleAvatar( //to be deployed later
                 Radius: 50.0,
                 backgroundImage:AssetImage('images/'), //Don't forget to edit pubspec.yaml

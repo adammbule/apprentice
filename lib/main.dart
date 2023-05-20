@@ -21,6 +21,7 @@ Piratecoin({super.key});
                     fontSize: 30.0,
                     color: Colors.black45,
                     fontWeight: FontWeight.bold,
+                    //learn to center the text
                   ),
                   ),
                   

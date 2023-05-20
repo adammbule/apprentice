@@ -23,6 +23,7 @@ Piratecoin({super.key});
                     fontWeight: FontWeight.bold,
                   ),
                   ),
+                  
         ),
         backgroundColor: Colors.lightBlue,
         body: SafeArea(
@@ -49,6 +50,10 @@ Piratecoin({super.key});
                 padding:EdgeInsets.all(20.0),
                              
               ), //container 2
+              SizedBox(
+                height: 30.0,
+              ),
+              Text('Forgot Your Password?'),
               /*CircleAvatar( //to be deployed later
                 Radius: 50.0,
                 backgroundImage:AssetImage('images/'), //Don't forget to edit pubspec.yaml

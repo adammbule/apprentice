@@ -39,15 +39,15 @@ Piratecoin({super.key});
             margin:EdgeInsets.only(left: 30.0),
             padding:EdgeInsets.all(20.0), 
               //fix the code Container(// add icons
-                child: Row(
+            /*child: Row(
                   children: <Widget>[
                     Icon(Icons.login_rounded,
                     size: 50.0,
-                    color: Colors.),
+                    color: Colors.black54),
                   ],
-                ),
+                ),*/
                 ),                           
-            ],
+            
               SizedBox(
                 height: 30.0,
               ),
@@ -55,21 +55,16 @@ Piratecoin({super.key});
                 width:double.infinity,
                 height:75,
                 color: Colors.white,
-                child:Text('Enter Password'),
                 margin:EdgeInsets.only(left: 30.0),
                 padding:EdgeInsets.all(20.0),
-                             
+                child:Text('Enter Password'),
+                                            
               ), //container 2
               SizedBox(
                 height: 30.0,
               ),
               Text('Forgot Your Password?'),
-              child: FloatingActionButton(
-                onPressed: (){
-                  print('Successful Login')
-                },
-                child: Text('LOGIN'),
-            ),
+              
               /*Container(// add icons
                 child: Row(
                   children: <Widget>[
@@ -84,7 +79,9 @@ Piratecoin({super.key});
                 Radius: 50.0,
                 backgroundImage:AssetImage('images/'), //Don't forget to edit pubspec.yaml
               ), */               
-        ),),
+        ]
+            ),
+        ),
         )
     );
       }

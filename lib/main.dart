@@ -46,8 +46,8 @@ Piratecoin({super.key});
                     color: Colors.),
                   ],
                 ),
-
-              ),                           ),
+                ),                           
+            ],
               SizedBox(
                 height: 30.0,
               ),
@@ -64,6 +64,9 @@ Piratecoin({super.key});
                 height: 30.0,
               ),
               Text('Forgot Your Password?'),
+            child: FloatingActionButton(
+              child: Text('LOGIN'),
+            ),
               /*Container(// add icons
                 child: Row(
                   children: <Widget>[
@@ -78,8 +81,7 @@ Piratecoin({super.key});
                 Radius: 50.0,
                 backgroundImage:AssetImage('images/'), //Don't forget to edit pubspec.yaml
               ), */               
-            ]),
-            ),
+        ),),
         )
     );
       }

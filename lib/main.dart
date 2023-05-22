@@ -64,8 +64,11 @@ Piratecoin({super.key});
                 height: 30.0,
               ),
               Text('Forgot Your Password?'),
-            child: FloatingActionButton(
-              child: Text('LOGIN'),
+              child: FloatingActionButton(
+                onPressed: (){
+                  print('Successful Login')
+                },
+                child: Text('LOGIN'),
             ),
               /*Container(// add icons
                 child: Row(

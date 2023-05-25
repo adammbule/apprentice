@@ -64,6 +64,12 @@ Piratecoin({super.key});
                 height: 30.0,
               ),
               Text('Forgot Your Password?'),
+
+              /*Expanded(
+            child: FloatingActionButton( 
+              onPressed: (){
+                print('Login Successful');
+                }),),*/
               
               /*Container(// add icons
                 child: Row(

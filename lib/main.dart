@@ -71,16 +71,21 @@ Piratecoin({super.key});
                 print('Login Successful');
                 }),),*/
               
-              /*Container(// add icons
-                child: Row(
-                  children: <Widget>[
+              Container(// add icons
+                child: FloatingActionButton(
+                  onPressed: (){
+                    print('Login Successful....');
+                  },
+                  child: Row(
+                    children: <Widget>[
                     Icon(Icons.login_rounded,
                     size: 50.0,
-                    color: Colors.),
+                    color: Colors.red),
                   ],
                 ),
+                ) 
 
-              ),*/ //To be implemented later
+              ), //To be implemented later
               /*CircleAvatar( //to be deployed later
                 Radius: 50.0,
                 backgroundImage:AssetImage('images/'), //Don't forget to edit pubspec.yaml

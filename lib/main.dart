@@ -72,6 +72,8 @@ Piratecoin({super.key});
                 }),),*/
               
               Container(// add icons
+                width:double.infinity,
+                height:75,
                 child: FloatingActionButton(
                   onPressed: (){
                     print('Login Successful....');

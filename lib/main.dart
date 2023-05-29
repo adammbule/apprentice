@@ -75,6 +75,7 @@ Piratecoin({super.key});
                 width:double.infinity,
                 height:75,
                 child: FloatingActionButton(
+                  backgroundColor: Colors.black,
                   onPressed: (){
                     print('Login Successful....');
                   },

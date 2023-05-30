@@ -105,7 +105,8 @@ class WelcomePage extends StatelessWidget { //Welcome page navigation
       appBar: AppBar(
         title: Text('Trending Piratecoins'),
       ),
-      body: // Add your page content here
+      //body: 2 columns + scrollbar--list of 20 items Items to have a mini textbox with distict font
+         // Add your page content here
     );
   }
 }

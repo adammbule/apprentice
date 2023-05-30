@@ -4,6 +4,18 @@ void main() {
   runApp(Piratecoin());
 }
 
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Piratecoin(),
+      routes: {
+        '/WelcomePage': (context) => WelcomePage(),
+      },
+    );
+  }
+}
+
 class Piratecoin extends StatelessWidget {
   Piratecoin({super.key});
 
@@ -76,6 +88,7 @@ class Piratecoin extends StatelessWidget {
                   child: FloatingActionButton(
                     backgroundColor: Colors.black,
                     onPressed: () {
+                      Navigator.pushNamed(context, /WelcomePage());
                       print('Login Successful....');
                     },
                     /*child: Row(

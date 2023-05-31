@@ -88,7 +88,7 @@ class Piratecoin extends StatelessWidget {
                   child: FloatingActionButton(
                     backgroundColor: Colors.black,
                     onPressed: () {
-                      Navigator.pushNamed(context, /WelcomePage());
+                      //Navigator.pushNamed(context, /WelcomePage());
                       print('Login Successful....');
                     },
                     /*child: Row(

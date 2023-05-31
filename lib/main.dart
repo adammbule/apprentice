@@ -91,6 +91,13 @@ class Piratecoin extends StatelessWidget {
                       Navigator.pushNamed(context, '/WelcomePage');
                       print('Login Successful....');
                     },
+                    child: Row(
+                    children: <Widget>[
+                    Icon(Icons.login_outlined,
+                    size: 50.0,
+                    color: Color.fromARGB(255, 15, 3, 2)),
+                  ],
+                    
                     /*child: Row(
                     children: <Widget>[
                     Icon(Icons.login_outlined,

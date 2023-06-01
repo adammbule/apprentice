@@ -103,8 +103,8 @@ class Piratecoin extends StatelessWidget {
                     Icon(Icons.login_outlined,
                     size: 50.0,
                     color: Color.fromARGB(255, 15, 3, 2)),
-                  ],
-                ),*/
+                  ],*/
+                ),
                   ),
                 ), //To be implemented later
                 /*CircleAvatar( //to be deployed later

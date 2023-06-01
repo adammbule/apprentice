@@ -113,8 +113,8 @@ class Piratecoin extends StatelessWidget {
               ), */
               ]),
         ),
-      ),
-    );
+        ),
+      );
   }
 }
 

@@ -95,7 +95,7 @@ class Piratecoin extends StatelessWidget {
                     children: <Widget>[
                     Icon(Icons.login_outlined,
                     size: 50.0,
-                    color: Color.fromARGB(255, 15, 3, 2)),
+                    color: Colors.black38),
                   ],
                     
                     /*child: Row(

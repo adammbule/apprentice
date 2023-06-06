@@ -73,19 +73,7 @@ class Piratecoin extends StatelessWidget {
                 SizedBox(
                   height: 30.0,
                 ),
-         Row( Center(
-          child: RichText(
-            text: TextSpan(
-              text: 'Forgot Your Password?',
-              style: TextStyle(color: Colors.black),
-              recognizer: TapGestureRecognizer()
-                ..onTap = () {
-                  launch('https://www.example.com');
-                },
-            ),
-          ),
-        ),
-         ),
+         
 
                 /*Expanded(
             child: FloatingActionButton( 
@@ -125,8 +113,20 @@ class Piratecoin extends StatelessWidget {
               ), */
               ]),
         ),
+        children: Center(
+          child: RichText(
+            text: TextSpan(
+              text: 'Forgot Your Password?',
+              style: TextStyle(color: Colors.black),
+              recognizer: TapGestureRecognizer()
+                ..onTap = () {
+                  launch('https://www.https://www.linkedin.com/in/adam-mbule-2a658515b/');
+                },
+            ),
+          ),
         ),
-      );
+         ),
+            );
   }
 }
 

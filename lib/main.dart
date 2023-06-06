@@ -74,6 +74,7 @@ class Piratecoin extends StatelessWidget {
                   height: 30.0,
                 ),
                 Text('Forgot Your Password?'),
+                recognizer: 
 
                 /*Expanded(
             child: FloatingActionButton( 

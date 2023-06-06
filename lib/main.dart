@@ -73,8 +73,19 @@ class Piratecoin extends StatelessWidget {
                 SizedBox(
                   height: 30.0,
                 ),
-                Text('Forgot Your Password?'),
-                recognizer: 
+         Row( Center(
+          child: RichText(
+            text: TextSpan(
+              text: 'Forgot Your Password?',
+              style: TextStyle(color: Colors.black),
+              recognizer: TapGestureRecognizer()
+                ..onTap = () {
+                  launch('https://www.example.com');
+                },
+            ),
+          ),
+        ),
+         ),
 
                 /*Expanded(
             child: FloatingActionButton( 

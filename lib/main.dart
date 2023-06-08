@@ -113,17 +113,17 @@ class Piratecoin extends StatelessWidget {
                 backgroundImage:AssetImage('images/'), //Don't forget to edit pubspec.yaml
               ), */
               ]),
-                Container( 
+                /*Container( // fix this container to create forgot password hypertext
                   child: Row(RichText(
-                    text: 'Forgot Your Password?',
+                    Text: text('Forgot Your Password?'),
                     style: TextStyle(color: Colors.black),
-                    recognizer: TapGestureRecognizer()
+                    recognizer: TapGestureRecognizer(),
                     ..onTap = () {
                     launch('https://www.https://www.linkedin.com/in/adam-mbule-2a658515b/');
                 },
             ),
           ),
-        ),
+        ),*/
         ),
         ),
         

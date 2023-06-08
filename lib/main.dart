@@ -115,7 +115,6 @@ class Piratecoin extends StatelessWidget {
               ]),
                 Container( 
                   child: Row(RichText(
-                    text: TextSpan(
                     text: 'Forgot Your Password?',
                     style: TextStyle(color: Colors.black),
                     recognizer: TapGestureRecognizer()
@@ -124,7 +123,6 @@ class Piratecoin extends StatelessWidget {
                 },
             ),
           ),
-        ),
         ),
         ),
         ),

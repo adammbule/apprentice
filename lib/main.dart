@@ -113,20 +113,22 @@ class Piratecoin extends StatelessWidget {
                 backgroundImage:AssetImage('images/'), //Don't forget to edit pubspec.yaml
               ), */
               ]),
-        ),
-        children: Center(
-          child: RichText(
-            text: TextSpan(
-              text: 'Forgot Your Password?',
-              style: TextStyle(color: Colors.black),
-              recognizer: TapGestureRecognizer()
-                ..onTap = () {
-                  launch('https://www.https://www.linkedin.com/in/adam-mbule-2a658515b/');
+                Container( 
+                  child: Row(RichText(
+                    text: TextSpan(
+                    text: 'Forgot Your Password?',
+                    style: TextStyle(color: Colors.black),
+                    recognizer: TapGestureRecognizer()
+                    ..onTap = () {
+                    launch('https://www.https://www.linkedin.com/in/adam-mbule-2a658515b/');
                 },
             ),
           ),
         ),
-         ),
+        ),
+        ),
+        ),
+        
             );
   }
 }

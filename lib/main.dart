@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
+////import 'package:url_launcher/url_launcher.dart';
 
 void main() {
   runApp(Piratecoin());
@@ -82,7 +82,7 @@ class Piratecoin extends StatelessWidget {
                 print('Login Successful');
                 }),),*/
 
-                Container(
+                SizedBox(
                   // add icons
                   width: double.infinity,
                   height: 75,

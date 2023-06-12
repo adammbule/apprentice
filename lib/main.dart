@@ -30,7 +30,7 @@ class Piratecoin extends StatelessWidget {
             'Piratecoin Dev',
             style: TextStyle(
               fontFamily: 'Roboto', //obtain fonts from fonts.google.com
-              fontSize: 32.0,
+              fontSize: 33.0,
               color: Colors.black45,
               fontWeight: FontWeight.bold,
               //learn to center the text

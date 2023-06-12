@@ -27,7 +27,7 @@ class Piratecoin extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.redAccent,
           title: Text(
-            'Piratecoin',
+            'Piratecoin Dev',
             style: TextStyle(
               fontFamily: 'Roboto', //obtain fonts from fonts.google.com
               fontSize: 32.0,

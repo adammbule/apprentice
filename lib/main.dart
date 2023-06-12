@@ -47,7 +47,7 @@ class Piratecoin extends StatelessWidget {
                   height: 75.0,
                   width: double.infinity,
                   color: Colors.white,
-                  margin: EdgeInsets.only(left: 30.0),
+                  margin: EdgeInsets.only(left: 28.0),
                   padding: EdgeInsets.all(20.0),
                   child: Text('Enter Username'),
                   //fix the code Container(// add icons

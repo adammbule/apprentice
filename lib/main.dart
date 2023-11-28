@@ -138,6 +138,21 @@ class WelcomePage extends StatelessWidget { //Welcome page navigation
     return Scaffold(
       appBar: AppBar(
         title: Text('Trending Piratecoins'),
+        body: GridView.count(
+          //two columns--horizontal axis
+          crossAxisCount: 2
+          //vertical limit of 50 items
+          child: List.generate(50, (index)){
+            return Center(
+              child: Text(
+                'Movie $index'
+                style: theme.of(context).textTheme.headlineSmall,
+              ),
+            ),
+          }
+          
+      
+        ),
       ),
       //body: 2 columns + scrollbar--list of 20 items Items to have a mini textbox with distict font
          // Add your page content here
@@ -148,8 +163,20 @@ class MoviesPage extends StatelessWidget { //Movies Page navigation
   Widget build(BuildContext context){
     return Scaffold(
       appbar: AppBar(
-        title: Text('Movies'),
+        title: Text('My Movies'),
       )
+      body:gridview.count(
+        crossAxisCount: 2
+        child: list.generate(50 (index)){
+          return Center(
+            child: Text(
+              'Movie $index'
+              style: theme.of(context).textTheme.headlineSmall,
+            ),
+          ),
+            
+        }
+      ),
     )
   
 }

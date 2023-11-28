@@ -142,5 +142,16 @@ class WelcomePage extends StatelessWidget { //Welcome page navigation
       //body: 2 columns + scrollbar--list of 20 items Items to have a mini textbox with distict font
          // Add your page content here
     );
+
+class MoviesPage extends StatelessWidget { //Movies Page navigation
+  @override
+  Widget build(BuildContext context){
+    return Scaffold(
+      appbar: AppBar(
+        title: Text('Movies'),
+      )
+    )
+  
+}
   }
 }

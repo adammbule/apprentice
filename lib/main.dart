@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
       home: Piratecoin(),
       routes: {
         '/WelcomePage': (context) => WelcomePage(),
+        '/MoviesPage': (context) => MoviesPage(),
       },
     );
   }

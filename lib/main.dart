@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
         '/WelcomePage': (context) => WelcomePage(),
         '/MoviesPage': (context) => MoviesPage(),
         '/AccountPage': (context) => AccountPage(),
+        '/WatchListPage': (context) => WatchListPage(),
       },
     );
   }

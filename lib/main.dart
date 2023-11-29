@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/WelcomePage': (context) => WelcomePage(),
         '/MoviesPage': (context) => MoviesPage(),
+        '/AccountPage': (context) => AccountPage(),
       },
     );
   }
@@ -173,8 +174,26 @@ class MoviesPage extends StatelessWidget { //Movies Page navigation
               'Movie $index'
               style: theme.of(context).textTheme.headlineSmall,
             ),
+          ),            
+        }
+        class AccountPage extends STatelessWidget {
+          @override
+          Widget build(buildContext context){
+            return Scaffold(
+              appBar: AppBar(
+                title: text('My Account'),
+              )
+              body:gridview.count(
+        crossAxisCount: 1
+        child: list.generate(5 (index)){
+          return Center(
+            child: Text(
+              'Setting $index'
+              style: theme.of(context).textTheme.headlineSmall,
+            ),
           ),
-            
+            )
+          }
         }
       ),
     )
